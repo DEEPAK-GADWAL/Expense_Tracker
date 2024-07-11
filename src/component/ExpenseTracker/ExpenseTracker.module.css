@@ -1,0 +1,42 @@
+.mainContainer {
+  background-color: #3b3b3b;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.title {
+  margin-bottom: 15px;
+}
+
+.container {
+  border-radius: 8px;
+  background-color: #626262;
+  /* padding: 60px; */
+  padding-left: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.leftSection,
+.midSection,
+.rightSection {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chartContainer {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.rightSection {
+  margin: 0;
+  padding: 0;
+}

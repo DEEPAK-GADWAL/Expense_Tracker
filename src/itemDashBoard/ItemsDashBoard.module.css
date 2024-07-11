@@ -1,0 +1,43 @@
+.container {
+  padding: 20px;
+}
+
+.sectionTitle {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  .sectionTitle {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 5px;
+  }
+
+  .card {
+    padding: 10px;
+  }
+
+  .sectionTitle {
+    font-size: 1em;
+  }
+}
